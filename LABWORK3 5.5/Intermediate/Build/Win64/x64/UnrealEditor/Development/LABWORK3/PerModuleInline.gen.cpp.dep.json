@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\harvert\\documents\\unreal projects\\labwork3 5.5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\labwork3\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\harvert\\documents\\unreal projects\\labwork3 5.5\\intermediate\\build\\win64\\x64\\labwork3editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\harvert\\documents\\unreal projects\\labwork3 5.5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\labwork3\\definitions.labwork3.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

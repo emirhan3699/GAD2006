@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LABWORK3",
+			"Path": "..\\Source\\LABWORK3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LABWORK3Editor",
+			"Path": "..\\Source\\LABWORK3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

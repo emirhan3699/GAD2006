@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LABWORK3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LABWORK3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LABWORK3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LABWORK3">
+      <UniqueIdentifier>{98960199-8AD3-36E7-9D39-D12E82AD884D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LABWORK3\LABWORK3.Build.cs">
+      <Filter>Source\LABWORK3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LABWORK3\LABWORK3.cpp">
+      <Filter>Source\LABWORK3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LABWORK3\LABWORK3.h">
+      <Filter>Source\LABWORK3</Filter>
+    </ClCompile>
+    <Filter Include="Source\LABWORK3\Private">
+      <UniqueIdentifier>{42626538-6206-369F-8933-66FD14D86276}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LABWORK3\Private\TileBase.cpp">
+      <Filter>Source\LABWORK3\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LABWORK3\Private\TileBase.h">
+      <Filter>Source\LABWORK3\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LABWORK3\Private\TileGameManager.cpp">
+      <Filter>Source\LABWORK3\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LABWORK3\Private\TileGameManager.h">
+      <Filter>Source\LABWORK3\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LABWORK3\Private\TilePlayerController.cpp">
+      <Filter>Source\LABWORK3\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LABWORK3\Private\TilePlayerController.h">
+      <Filter>Source\LABWORK3\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

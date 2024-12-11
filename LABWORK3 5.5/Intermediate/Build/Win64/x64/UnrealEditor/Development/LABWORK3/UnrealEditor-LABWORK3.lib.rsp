@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-LABWORK3.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\LABWORK3Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\LABWORK3.init.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\TileBase.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\TileGameManager.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\TilePlayerController.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\LABWORK3.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\TileBase.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\TileGameManager.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\TilePlayerController.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\PerModuleInline.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\Default.rc2.res"
+/OUT:"C:\Users\Harvert\Documents\Unreal Projects\LABWORK3 5.5\Intermediate\Build\Win64\x64\UnrealEditor\Development\LABWORK3\UnrealEditor-LABWORK3.lib"
