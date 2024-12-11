@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Labwork2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\Labwork2Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\GameGrid.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\GameSlot.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\Labwork2.init.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\Labwork2.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\GameGrid.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\GameSlot.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\PerModuleInline.gen.cpp.obj"
+"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\Default.rc2.res"
+/OUT:"C:\Users\Harvert\Documents\Unreal Projects\GAD2006Emirhan\Labwork2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Labwork2\UnrealEditor-Labwork2.lib"
