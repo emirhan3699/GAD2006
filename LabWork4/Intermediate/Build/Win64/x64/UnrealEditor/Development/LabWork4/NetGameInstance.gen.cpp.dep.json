@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\enesakar\\desktop\\labwork4\\intermediate\\build\\win64\\unrealeditor\\inc\\labwork4\\uht\\netgameinstance.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\enesakar\\desktop\\labwork4\\intermediate\\build\\win64\\x64\\labwork4editor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\enesakar\\desktop\\labwork4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\labwork4\\definitions.labwork4.h",
+            "c:\\users\\enesakar\\desktop\\labwork4\\source\\labwork4\\private\\netgameinstance.h",
+            "c:\\users\\enesakar\\desktop\\labwork4\\intermediate\\build\\win64\\unrealeditor\\inc\\labwork4\\uht\\netgameinstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
