@@ -122,10 +122,11 @@ DEFINE_FUNCTION(ANetGameState::execOnRep_Winner)
 // End Class ANetGameState Function OnRep_Winner
 
 // Begin Class ANetGameState Function OnRestart
-static FName NAME_ANetGameState_OnRestart = FName(TEXT("OnRestart"));
+static const FName NAME_ANetGameState_OnRestart = FName(TEXT("OnRestart"));
 void ANetGameState::OnRestart()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetGameState_OnRestart),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetGameState_OnRestart);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetGameState_OnRestart_Statics
 {
@@ -149,10 +150,11 @@ UFunction* Z_Construct_UFunction_ANetGameState_OnRestart()
 // End Class ANetGameState Function OnRestart
 
 // Begin Class ANetGameState Function OnVictory
-static FName NAME_ANetGameState_OnVictory = FName(TEXT("OnVictory"));
+static const FName NAME_ANetGameState_OnVictory = FName(TEXT("OnVictory"));
 void ANetGameState::OnVictory()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetGameState_OnVictory),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetGameState_OnVictory);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetGameState_OnVictory_Statics
 {
@@ -205,10 +207,11 @@ DEFINE_FUNCTION(ANetGameState::execStartTimer)
 // End Class ANetGameState Function StartTimer
 
 // Begin Class ANetGameState Function StopTimer
-static FName NAME_ANetGameState_StopTimer = FName(TEXT("StopTimer"));
+static const FName NAME_ANetGameState_StopTimer = FName(TEXT("StopTimer"));
 void ANetGameState::StopTimer()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetGameState_StopTimer),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetGameState_StopTimer);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetGameState_StopTimer_Statics
 {
@@ -239,10 +242,11 @@ DEFINE_FUNCTION(ANetGameState::execStopTimer)
 // End Class ANetGameState Function StopTimer
 
 // Begin Class ANetGameState Function TriggerRestart
-static FName NAME_ANetGameState_TriggerRestart = FName(TEXT("TriggerRestart"));
+static const FName NAME_ANetGameState_TriggerRestart = FName(TEXT("TriggerRestart"));
 void ANetGameState::TriggerRestart()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetGameState_TriggerRestart),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetGameState_TriggerRestart);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetGameState_TriggerRestart_Statics
 {
@@ -273,10 +277,11 @@ DEFINE_FUNCTION(ANetGameState::execTriggerRestart)
 // End Class ANetGameState Function TriggerRestart
 
 // Begin Class ANetGameState Function UpdateTimerDisplay
-static FName NAME_ANetGameState_UpdateTimerDisplay = FName(TEXT("UpdateTimerDisplay"));
+static const FName NAME_ANetGameState_UpdateTimerDisplay = FName(TEXT("UpdateTimerDisplay"));
 void ANetGameState::UpdateTimerDisplay()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetGameState_UpdateTimerDisplay),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetGameState_UpdateTimerDisplay);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetGameState_UpdateTimerDisplay_Statics
 {
@@ -420,14 +425,14 @@ ANetGameState::~ANetGameState() {}
 // End Class ANetGameState
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ANetGameState, ANetGameState::StaticClass, TEXT("ANetGameState"), &Z_Registration_Info_UClass_ANetGameState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetGameState), 2002341792U) },
+		{ Z_Construct_UClass_ANetGameState, ANetGameState::StaticClass, TEXT("ANetGameState"), &Z_Registration_Info_UClass_ANetGameState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetGameState), 1779400220U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_472810059(TEXT("/Script/LabWork4"),
-	Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_2144480572(TEXT("/Script/LabWork4"),
+	Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

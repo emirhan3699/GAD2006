@@ -16,7 +16,7 @@ struct FSPlayerInfo;
 #endif
 #define LABWORK4_NetBaseCharacter_generated_h
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_30_GENERATED_BODY \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_30_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSMeshAssetList_Statics; \
 	LABWORK4_API static class UScriptStruct* StaticStruct(); \
 	typedef FTableRowBase Super;
@@ -24,7 +24,7 @@ struct FSPlayerInfo;
 
 template<> LABWORK4_API UScriptStruct* StaticStruct<struct FSMeshAssetList>();
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void SubmitPlayerInfoToServer_Implementation(FSPlayerInfo Info); \
 	DECLARE_FUNCTION(execCheckPlayerInfo); \
 	DECLARE_FUNCTION(execCheckPlayerState); \
@@ -33,8 +33,8 @@ template<> LABWORK4_API UScriptStruct* StaticStruct<struct FSMeshAssetList>();
 	DECLARE_FUNCTION(execGetCustomizationData);
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_CALLBACK_WRAPPERS
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_CALLBACK_WRAPPERS
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANetBaseCharacter(); \
 	friend struct Z_Construct_UClass_ANetBaseCharacter_Statics; \
@@ -43,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(ANetBaseCharacter)
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ANetBaseCharacter(ANetBaseCharacter&&); \
@@ -55,14 +55,14 @@ public: \
 	NO_API virtual ~ANetBaseCharacter();
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_40_PROLOG
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_GENERATED_BODY \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_40_PROLOG
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_CALLBACK_WRAPPERS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_INCLASS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_ENHANCED_CONSTRUCTORS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_CALLBACK_WRAPPERS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_INCLASS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_43_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -70,7 +70,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> LABWORK4_API UClass* StaticClass<class ANetBaseCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h
+#define CURRENT_FILE_ID FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h
 
 
 #define FOREACH_ENUM_EBODYPART(op) \

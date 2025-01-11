@@ -15,7 +15,7 @@ class ANetAvatar;
 #endif
 #define LABWORK4_NetGameMode_generated_h
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void TimeOver_Implementation(); \
 	DECLARE_FUNCTION(execEndGame); \
 	DECLARE_FUNCTION(execSetWinner); \
@@ -23,8 +23,8 @@ class ANetAvatar;
 	DECLARE_FUNCTION(execAvatarsOverlapped);
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_CALLBACK_WRAPPERS
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_CALLBACK_WRAPPERS
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANetGameMode(); \
 	friend struct Z_Construct_UClass_ANetGameMode_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ANetGameMode)
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ANetGameMode(ANetGameMode&&); \
@@ -45,14 +45,14 @@ public: \
 	NO_API virtual ~ANetGameMode();
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_13_PROLOG
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_GENERATED_BODY \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_13_PROLOG
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_CALLBACK_WRAPPERS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_CALLBACK_WRAPPERS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -60,7 +60,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> LABWORK4_API UClass* StaticClass<class ANetGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h
+#define CURRENT_FILE_ID FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

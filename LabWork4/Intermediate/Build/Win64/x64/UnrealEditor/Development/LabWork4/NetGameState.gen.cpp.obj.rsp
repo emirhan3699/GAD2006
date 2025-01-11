@@ -1,11 +1,13 @@
-"C:\Users\EnesAkar\Desktop\LabWork4\Intermediate\Build\Win64\UnrealEditor\Inc\LabWork4\UHT\NetGameState.gen.cpp"
-/FI"C:\Users\EnesAkar\Desktop\LabWork4\Intermediate\Build\Win64\x64\LabWork4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h"
-/FI"C:\Users\EnesAkar\Desktop\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\Definitions.LabWork4.h"
-/Yu"C:\Users\EnesAkar\Desktop\LabWork4\Intermediate\Build\Win64\x64\LabWork4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h"
-/Fp"C:\Users\EnesAkar\Desktop\LabWork4\Intermediate\Build\Win64\x64\LabWork4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h.pch"
-/Fo"C:\Users\EnesAkar\Desktop\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\NetGameState.gen.cpp.obj"
-/sourceDependencies "C:\Users\EnesAkar\Desktop\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\NetGameState.gen.cpp.dep.json"
-@"C:\Users\EnesAkar\Desktop\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\LabWork4.Shared.rsp"
+"C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\UnrealEditor\Inc\LabWork4\UHT\NetGameState.gen.cpp"
+/FI"C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\x64\LabWork4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\Definitions.LabWork4.h"
+/Yu"C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\x64\LabWork4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\x64\LabWork4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\NetGameState.gen.cpp.obj"
+/experimental:log "C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\NetGameState.gen.cpp.sarif"
+/sourceDependencies "C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\NetGameState.gen.cpp.dep.json"
+@"C:\Users\Harvert\Documents\GitHub\GAD2006\LabWork4\Intermediate\Build\Win64\x64\UnrealEditor\Development\LabWork4\LabWork4.Shared.rsp"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi

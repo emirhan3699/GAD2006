@@ -48,10 +48,11 @@ DEFINE_FUNCTION(ANetAvatar::execOnRep_UpdateMovementParams)
 // End Class ANetAvatar Function OnRep_UpdateMovementParams
 
 // Begin Class ANetAvatar Function ServerStartRunning
-static FName NAME_ANetAvatar_ServerStartRunning = FName(TEXT("ServerStartRunning"));
+static const FName NAME_ANetAvatar_ServerStartRunning = FName(TEXT("ServerStartRunning"));
 void ANetAvatar::ServerStartRunning()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetAvatar_ServerStartRunning),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetAvatar_ServerStartRunning);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetAvatar_ServerStartRunning_Statics
 {
@@ -82,10 +83,11 @@ DEFINE_FUNCTION(ANetAvatar::execServerStartRunning)
 // End Class ANetAvatar Function ServerStartRunning
 
 // Begin Class ANetAvatar Function ServerStopRunning
-static FName NAME_ANetAvatar_ServerStopRunning = FName(TEXT("ServerStopRunning"));
+static const FName NAME_ANetAvatar_ServerStopRunning = FName(TEXT("ServerStopRunning"));
 void ANetAvatar::ServerStopRunning()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetAvatar_ServerStopRunning),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetAvatar_ServerStopRunning);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetAvatar_ServerStopRunning_Statics
 {
@@ -238,14 +240,14 @@ ANetAvatar::~ANetAvatar() {}
 // End Class ANetAvatar
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ANetAvatar, ANetAvatar::StaticClass, TEXT("ANetAvatar"), &Z_Registration_Info_UClass_ANetAvatar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetAvatar), 1150453595U) },
+		{ Z_Construct_UClass_ANetAvatar, ANetAvatar::StaticClass, TEXT("ANetAvatar"), &Z_Registration_Info_UClass_ANetAvatar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetAvatar), 3118533946U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_1535739208(TEXT("/Script/LabWork4"),
-	Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_641870240(TEXT("/Script/LabWork4"),
+	Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

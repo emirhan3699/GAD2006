@@ -151,10 +151,11 @@ DEFINE_FUNCTION(ANetGameMode::execSetWinner)
 // End Class ANetGameMode Function SetWinner
 
 // Begin Class ANetGameMode Function TimeOver
-static FName NAME_ANetGameMode_TimeOver = FName(TEXT("TimeOver"));
+static const FName NAME_ANetGameMode_TimeOver = FName(TEXT("TimeOver"));
 void ANetGameMode::TimeOver()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetGameMode_TimeOver),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetGameMode_TimeOver);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetGameMode_TimeOver_Statics
 {
@@ -264,14 +265,14 @@ ANetGameMode::~ANetGameMode() {}
 // End Class ANetGameMode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ANetGameMode, ANetGameMode::StaticClass, TEXT("ANetGameMode"), &Z_Registration_Info_UClass_ANetGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetGameMode), 1310948626U) },
+		{ Z_Construct_UClass_ANetGameMode, ANetGameMode::StaticClass, TEXT("ANetGameMode"), &Z_Registration_Info_UClass_ANetGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetGameMode), 2809565055U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_1165555898(TEXT("/Script/LabWork4"),
-	Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameMode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_2979379523(TEXT("/Script/LabWork4"),
+	Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

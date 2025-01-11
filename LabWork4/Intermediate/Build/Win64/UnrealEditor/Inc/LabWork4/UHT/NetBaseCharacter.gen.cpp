@@ -334,10 +334,11 @@ DEFINE_FUNCTION(ANetBaseCharacter::execGetCustomizationData)
 // End Class ANetBaseCharacter Function GetCustomizationData
 
 // Begin Class ANetBaseCharacter Function OnPlayerInfoChanged
-static FName NAME_ANetBaseCharacter_OnPlayerInfoChanged = FName(TEXT("OnPlayerInfoChanged"));
+static const FName NAME_ANetBaseCharacter_OnPlayerInfoChanged = FName(TEXT("OnPlayerInfoChanged"));
 void ANetBaseCharacter::OnPlayerInfoChanged()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ANetBaseCharacter_OnPlayerInfoChanged),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ANetBaseCharacter_OnPlayerInfoChanged);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ANetBaseCharacter_OnPlayerInfoChanged_Statics
 {
@@ -365,12 +366,13 @@ struct NetBaseCharacter_eventSubmitPlayerInfoToServer_Parms
 {
 	FSPlayerInfo Info;
 };
-static FName NAME_ANetBaseCharacter_SubmitPlayerInfoToServer = FName(TEXT("SubmitPlayerInfoToServer"));
+static const FName NAME_ANetBaseCharacter_SubmitPlayerInfoToServer = FName(TEXT("SubmitPlayerInfoToServer"));
 void ANetBaseCharacter::SubmitPlayerInfoToServer(FSPlayerInfo Info)
 {
 	NetBaseCharacter_eventSubmitPlayerInfoToServer_Parms Parms;
 	Parms.Info=Info;
-	ProcessEvent(FindFunctionChecked(NAME_ANetBaseCharacter_SubmitPlayerInfoToServer),&Parms);
+	UFunction* Func = FindFunctionChecked(NAME_ANetBaseCharacter_SubmitPlayerInfoToServer);
+	ProcessEvent(Func,&Parms);
 }
 struct Z_Construct_UFunction_ANetBaseCharacter_SubmitPlayerInfoToServer_Statics
 {
@@ -577,7 +579,7 @@ ANetBaseCharacter::~ANetBaseCharacter() {}
 // End Class ANetBaseCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EBodyPart_StaticEnum, TEXT("EBodyPart"), &Z_Registration_Info_UEnum_EBodyPart, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3801398634U) },
@@ -586,12 +588,12 @@ struct Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4
 		{ FSMeshAssetList::StaticStruct, Z_Construct_UScriptStruct_FSMeshAssetList_Statics::NewStructOps, TEXT("SMeshAssetList"), &Z_Registration_Info_UScriptStruct_SMeshAssetList, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSMeshAssetList), 3951247443U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ANetBaseCharacter, ANetBaseCharacter::StaticClass, TEXT("ANetBaseCharacter"), &Z_Registration_Info_UClass_ANetBaseCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetBaseCharacter), 3939852819U) },
+		{ Z_Construct_UClass_ANetBaseCharacter, ANetBaseCharacter::StaticClass, TEXT("ANetBaseCharacter"), &Z_Registration_Info_UClass_ANetBaseCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetBaseCharacter), 1850688382U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_1412293320(TEXT("/Script/LabWork4"),
-	Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::EnumInfo));
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_1951299667(TEXT("/Script/LabWork4"),
+	Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetBaseCharacter_h_Statics::EnumInfo));
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

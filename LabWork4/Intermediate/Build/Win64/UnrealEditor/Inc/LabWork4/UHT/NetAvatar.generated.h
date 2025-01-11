@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LABWORK4_NetAvatar_generated_h
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void ServerStopRunning_Implementation(); \
 	virtual void ServerStartRunning_Implementation(); \
 	DECLARE_FUNCTION(execOnRep_UpdateMovementParams); \
@@ -22,8 +22,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execServerStartRunning);
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_CALLBACK_WRAPPERS
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_CALLBACK_WRAPPERS
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANetAvatar(); \
 	friend struct Z_Construct_UClass_ANetAvatar_Statics; \
@@ -39,7 +39,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ANetAvatar(ANetAvatar&&); \
@@ -51,14 +51,14 @@ public: \
 	NO_API virtual ~ANetAvatar();
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_14_PROLOG
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_GENERATED_BODY \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_14_PROLOG
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_CALLBACK_WRAPPERS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_CALLBACK_WRAPPERS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -66,7 +66,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> LABWORK4_API UClass* StaticClass<class ANetAvatar>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetAvatar_h
+#define CURRENT_FILE_ID FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetAvatar_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -15,19 +15,19 @@ struct FSPlayerInfo;
 #endif
 #define LABWORK4_NetGameInstance_generated_h
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_28_GENERATED_BODY \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_28_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSPlayerInfo_Statics; \
 	LABWORK4_API static class UScriptStruct* StaticStruct();
 
 
 template<> LABWORK4_API UScriptStruct* StaticStruct<struct FSPlayerInfo>();
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execjoin); \
 	DECLARE_FUNCTION(exechost);
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNetGameInstance(); \
 	friend struct Z_Construct_UClass_UNetGameInstance_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(UNetGameInstance)
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UNetGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -50,13 +50,13 @@ public: \
 	NO_API virtual ~UNetGameInstance();
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_43_PROLOG
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_GENERATED_BODY \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_43_PROLOG
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_INCLASS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_ENHANCED_CONSTRUCTORS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_INCLASS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h_46_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -64,7 +64,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> LABWORK4_API UClass* StaticClass<class UNetGameInstance>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameInstance_h
+#define CURRENT_FILE_ID FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameInstance_h
 
 
 #define FOREACH_ENUM_EPLAYERTEAM(op) \

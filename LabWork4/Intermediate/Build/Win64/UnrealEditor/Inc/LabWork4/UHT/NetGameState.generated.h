@@ -15,7 +15,7 @@ class ANetPlayerState;
 #endif
 #define LABWORK4_NetGameState_generated_h
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void StopTimer_Implementation(); \
 	virtual void TriggerRestart_Implementation(); \
 	DECLARE_FUNCTION(execOnRep_RemainingTime); \
@@ -26,8 +26,8 @@ class ANetPlayerState;
 	DECLARE_FUNCTION(execOnRep_Winner);
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_CALLBACK_WRAPPERS
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_CALLBACK_WRAPPERS
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANetGameState(); \
 	friend struct Z_Construct_UClass_ANetGameState_Statics; \
@@ -44,7 +44,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ANetGameState(ANetGameState&&); \
@@ -56,14 +56,14 @@ public: \
 	NO_API virtual ~ANetGameState();
 
 
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_16_PROLOG
-#define FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_GENERATED_BODY \
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_16_PROLOG
+#define FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_CALLBACK_WRAPPERS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_INCLASS_NO_PURE_DECLS \
-	FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h_19_ENHANCED_CONSTRUCTORS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_CALLBACK_WRAPPERS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -71,7 +71,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> LABWORK4_API UClass* StaticClass<class ANetGameState>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_EnesAkar_Desktop_LabWork4_Source_LabWork4_Private_NetGameState_h
+#define CURRENT_FILE_ID FID_Users_Harvert_Documents_GitHub_GAD2006_LabWork4_Source_LabWork4_Private_NetGameState_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
