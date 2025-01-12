@@ -1,16 +1,11 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "NetBaseCharacter.h"
-#include "Camera/Cameracomponent.h"
-#include "Gameframework/SpringArmComponent.h"
+#include "Camera/CameraComponent.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "NetAvatar.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class ANetAvatar : public ANetBaseCharacter
 {
@@ -22,6 +17,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	UCameraComponent* Camera;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, ReplicatedUsing = OnRep_CanInv)
+	bool CanInv;
 
 	UPROPERTY(EditAnywhere)
 	USpringArmComponent* SpringArm;
@@ -45,9 +43,13 @@ private:
 	UFUNCTION()
 	void OnRep_UpdateMovementParams();
 
+	UFUNCTION()
+	void OnRep_CanInv();
+
 	void MoveForward(float Amount);
 	void MoveRight(float Amount);
 	void RunPressed();
 	void RunReleased();
-	
+	void CollectItem(FString ItemName);
+	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 };

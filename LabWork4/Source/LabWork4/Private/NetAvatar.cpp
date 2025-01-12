@@ -1,8 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "NetAvatar.h"
 #include "GameFrameWork/CharacterMovementComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Net/UnrealNetwork.h"
 
 ANetAvatar::ANetAvatar() :
 	MovementScale(1.0f)
@@ -18,6 +17,11 @@ void ANetAvatar::BeginPlay()
 {
 	Super::BeginPlay();
 
+	if (GetCapsuleComponent())
+	{
+		GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ANetAvatar::OnOverlapBegin);
+	}
+
 	Camera->bUsePawnControlRotation = false;
 	SpringArm->bUsePawnControlRotation = true;
 	bUseControllerRotationYaw = false;
@@ -29,6 +33,7 @@ void ANetAvatar::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& Out
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ANetAvatar, bHoldingRunKey);
+	DOREPLIFETIME(ANetAvatar, CanInv);
 }
 
 void ANetAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -50,7 +55,7 @@ void ANetAvatar::MoveForward(float Scale)
 	FRotator Rotation = GetController()->GetControlRotation();
 	FRotator YawRotation(0.0f, Rotation.Yaw, 0.0f);
 	FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-	AddMovementInput(ForwardDirection, MovementScale*Scale);
+	AddMovementInput(ForwardDirection, MovementScale * Scale);
 }
 
 void ANetAvatar::MoveRight(float Scale)
@@ -58,9 +63,8 @@ void ANetAvatar::MoveRight(float Scale)
 	FRotator Rotation = GetController()->GetControlRotation();
 	FRotator YawRotation(0.0f, Rotation.Yaw, 0.0f);
 	FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-	AddMovementInput(ForwardDirection, MovementScale*Scale);
+	AddMovementInput(ForwardDirection, MovementScale * Scale);
 }
-
 
 void ANetAvatar::OnRep_UpdateMovementParams()
 {
@@ -72,6 +76,11 @@ void ANetAvatar::OnRep_UpdateMovementParams()
 	{
 		GetCharacterMovement()->MaxWalkSpeed = 300.0f;
 	}
+}
+
+void ANetAvatar::OnRep_CanInv()
+{
+	// CanInv deðiþkeni deðiþtiðinde yapýlacak iþlemler
 }
 
 void ANetAvatar::RunPressed()
@@ -97,6 +106,23 @@ void ANetAvatar::RunReleased()
 	else
 	{
 		ServerStopRunning();
+	}
+}
+
+void ANetAvatar::CollectItem(FString ItemName)
+{
+	if (ItemName == "Cape")
+	{
+		CanInv = true;
+	}
+}
+
+void ANetAvatar::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (OtherActor && (OtherActor != this) && OtherComp)
+	{
+		FString ItemName = OtherActor->GetName();
+		CollectItem(ItemName);
 	}
 }
 
